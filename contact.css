@@ -26,6 +26,9 @@ nav{
 
 
 }
+.fa-phone-volume{
+    font-size: 20px;
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -64,10 +67,20 @@ footer{
     align-items: center;
     color: white;
 }
+
+.ok{
+    margin-top: 14px;
+    margin-left: -300px;
+
+}
+.ok1{
+    margin-top: 8px;
+    margin-left: -300px;
+}
 /* section */
 section{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: rgb(228, 247, 190);
     display: flex;
     flex-direction: column;
@@ -86,6 +99,7 @@ section{
 .d1 h2{
     font-size: 40px;
     font-weight: 900;
+    padding: 5px;
 
 }
 .d1 h2{
@@ -142,4 +156,10 @@ button{
     background-color: green;
     margin-top: 7px;
     color: white;
+}
+input{
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 4px;
 }
